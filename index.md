@@ -1,8 +1,4 @@
-## Projetos selecionados em Análise de Dados e Web Analytics 
-
-
-
-
+## Projetos
 ---
 
 ### Pipeline de Dados de Corridas de Rua no Brasil
