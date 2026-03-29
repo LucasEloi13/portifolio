@@ -1,5 +1,26 @@
 ## Projetos selecionados em Análise de Dados e Web Analytics 
 
+
+
+
+---
+
+### Pipeline de Dados de Corridas de Rua no Brasil
+
+Neste projeto, desenvolvi uma pipeline end-to-end para processar e estruturar resultados de mais de 10 mil corridas de rua no Brasil, gerando um dataset com mais de 10 milhões de linhas. O foco foi construir uma base confiável para análises de performance, participação e evolução no cenário de corridas.
+
+Para garantir escala, rastreabilidade e consistência, desenhei uma arquitetura orientada a boas práticas de engenharia de dados: ambiente em AWS provisionado com Terraform, armazenamento em Data Lake no Amazon S3 com camadas Bronze/Silver/Gold, transformações e modelagem com dbt e orquestração com Apache Airflow.
+
+O principal desafio foi a padronização de dados em larga escala, especialmente na normalização de distâncias, ritmos e categorias em milhões de registros. O projeto segue em refinamento para tratar inconsistências típicas de dados reais, mas a massa principal já está disponível como dado aberto.
+
+<img src="images/race-results-diagram.png?raw=true" style="width:100%;max-width:480px;height:auto;"/>
+
+[![](https://img.shields.io/badge/Python-white?logo=python&logoColor=3776AB)](#) [![](https://img.shields.io/badge/AWS-white?logo=amazonwebservices&logoColor=232F3E)](#) [![](https://img.shields.io/badge/Amazon%20S3-white?logo=amazons3&logoColor=569A31)](#) [![](https://img.shields.io/badge/Terraform-white?logo=terraform&logoColor=7B42BC)](#) [![](https://img.shields.io/badge/dbt-white?logo=dbt&logoColor=FF694B)](#) [![](https://img.shields.io/badge/Apache%20Airflow-white?logo=apacheairflow&logoColor=01ADAD)](#)
+
+[Ver dataset no Kaggle](https://www.kaggle.com/datasets/lucaseloi13/brazilian-road-race-results?utm_medium=social&utm_campaign=kaggle-dataset-share&utm_source=reddit)
+
+[Ver repositório no GitHub](https://github.com/LucasEloi13/brazilian-running-results-pipeline)
+
 ---
 
 ### Análise de Investimentos para Airbnb 
@@ -15,23 +36,6 @@ Nesta análise, foram avaliados os dados do Airbnb em Boston para identificar os
 [![](https://img.shields.io/badge/Tableau-white?logo=Tableau)](#) 
 
 [Ver análise em tela cheia](https://docs.google.com/presentation/d/e/2PACX-1vTRFtbJjAhpMq7kFpsLblKQxxkTkOXLcHgsfsEILUH4R53vSzPh7YDDHxU8RVX8dVKsVSMHFZkzU3Si/pub?start=false&loop=false&delayms=3000&slide=id.g4dfce81f19_0_45)
-
----
-
-### Dashboard de Desempenho de Vendas
-
-Este dashboard de vendas permite visualizar insights valiosos sobre a jornada do cliente, com dados segmentados por regiões, categorias e subcategorias. Com uma interface intuitiva e gráficos interativos, é possível analisar tendências de vendas e desempenho em tempo real. Com isso, é possível identificar oportunidades de crescimento e tomar decisões estratégicas mais assertivas.
-
-<!-- <img src="images/dashvendas.png?raw=true"/> -->
-<iframe width="493" height="370" src="https://lookerstudio.google.com/embed/reporting/42b6179e-7ae0-4c43-8193-788726f7534f/page/tUvED" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-⠀⠀⠀⠀⠀
-
-[![](https://img.shields.io/badge/Google%20Analytics-white?logo=google%20analytics)](#) [![](https://img.shields.io/badge/Looker-white?logo=Looker)](#) 
-
-[Ver dashboard em tela cheia](https://lookerstudio.google.com/reporting/42b6179e-7ae0-4c43-8193-788726f7534f)
-
-
 
 <!--*********************APAGAR AQ
 ### Examining panic-buying during the first wave of Covid-19, using mobility data
